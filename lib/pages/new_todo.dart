@@ -33,7 +33,7 @@ class _NewTodoPageState extends State<NewTodoPage> {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+                  margin:const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                   child: const Text(
                     'TodoRama',
                     style: TextStyle(color: Colors.white, fontSize: 30),
@@ -51,7 +51,7 @@ class _NewTodoPageState extends State<NewTodoPage> {
                     topLeft: Radius.circular(30),
                     topRight: Radius.circular(30))),
             child: Container(
-              margin: EdgeInsets.symmetric(horizontal: 20),
+              margin:const EdgeInsets.symmetric(horizontal: 20),
               child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -86,7 +86,7 @@ class _NewTodoPageState extends State<NewTodoPage> {
             width: double.infinity,
             color: Colors.white,
             child: Container(
-              margin: EdgeInsets.all(40),
+              margin:const EdgeInsets.all(40),
               child: ElevatedButton(
                 onPressed: () {},
                 child: const Text(

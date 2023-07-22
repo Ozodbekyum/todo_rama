@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
             width: double.infinity,
             child: Column(
               children: [
-                SizedBox(height: 20),
+              const  SizedBox(height: 20),
                 const Center(
                   child: Text(
                     'TodoRama',
@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
                     style: const TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Color.fromARGB(255, 134, 194, 244),
+                      fillColor:const Color.fromARGB(255, 134, 194, 244),
                       suffixIcon: InkWell(
                         onTap: () {},
                         child: Container(
@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
                           )),
                         ),
                       ),
-                      hintStyle: TextStyle(color: Colors.white, fontSize: 15),
+                      hintStyle:const TextStyle(color: Colors.white, fontSize: 15),
                       hintText: '\tSearch',
                       border: const OutlineInputBorder(
                         borderSide: BorderSide.none,
@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => NewTodoPage(),
+                builder: (context) =>const NewTodoPage(),
               ));
         },
         child: const Icon(

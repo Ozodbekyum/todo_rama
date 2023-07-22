@@ -28,7 +28,7 @@ class EditTodoPage extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+                  margin:const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                   child: const Text(
                     'TodoRama',
                     style: TextStyle(color: Colors.white, fontSize: 30),
@@ -46,7 +46,7 @@ class EditTodoPage extends StatelessWidget {
                     topLeft: Radius.circular(30),
                     topRight: Radius.circular(30))),
             child: Container(
-              margin: EdgeInsets.symmetric(horizontal: 20),
+              margin:const EdgeInsets.symmetric(horizontal: 20),
               child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -85,7 +85,7 @@ class EditTodoPage extends StatelessWidget {
                 Container(
                   height: 55,
                   width: MediaQuery.of(context).size.width * 0.45,
-                  margin: EdgeInsets.all(10),
+                  margin:const EdgeInsets.all(10),
                   child: ElevatedButton(
                     onPressed: () {},
                     child: const Text(
@@ -97,7 +97,7 @@ class EditTodoPage extends StatelessWidget {
                 Container(
                   height: 55,
                   width: MediaQuery.of(context).size.width * 0.45,
-                  margin: EdgeInsets.all(10),
+                  margin:const EdgeInsets.all(10),
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all(Colors.red)),
